@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "alias":"nandana-noteful-client",
+  "name": "nandana-noteful-client",
+  "routes": [
+      {
+        "src": "^/static/(.*)",
+        "dest": "/static/$1"
+      },
+      {
+        "src": ".*",
+        "dest": "/index.html"
+      }
+  ]
+}
